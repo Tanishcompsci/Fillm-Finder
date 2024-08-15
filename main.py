@@ -68,7 +68,7 @@ while (continuePgm == "y" or continuePgm == "Y"):
     movieTitle = input("Enter a movie title: ")
 
     #uses API key to search for movie title
-    apiKey = "0fc076e8f6e21a94b2a7e154b0a82811"
+    apiKey = "ENTER KEY"
     searchUrl = f'https://api.themoviedb.org/3/search/movie?api_key={apiKey}&query={movieTitle}'
 
     response = requests.get(searchUrl)
